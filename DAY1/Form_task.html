@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+
+    <h1 align="center"><ins>Registration Form</ins></h1>
+    <form action="">
+        <table border="2", cellpadding="10" align="center">
+            <tbody>
+
+                <tr>
+                    <td><label for="First Name"><b>First Name</b></label></td>
+                    <td><input type="text" name="name" placeholder="enter firstname"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Last Name"><b>Last Name</b></label></td>
+                    <td><input type="text" name="name" placeholder="enter lastname"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Gender"><b>Gender</b></label>
+                    </td>
+                    <td>
+                        <input type="radio" name="Gender" id="" value="Male">Male
+                        <input type="radio" name="Gender" id="" value="Female">Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="DOB"><b>DOB</b></label></td>
+                    <td><input type="date" name="date" placeholder="mm/dd/yyyy"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Qualification"><b>Qualification</b></label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="qualification" id="" value="MCA">MCA
+                        <input type="checkbox" name="qualification" id=""  value="MBA">MBA
+                        <input type="checkbox" name="qualification" id=""  value="MTECH">MTECH
+                        <input type="checkbox" name="qualification" id=""  value="Others">Others
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="Contact"><b>Contact</b></label></td>
+                    <td><input type="number" name="contact" placeholder=""></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Email"><b>Email</b></label></td>
+                    <td><input type="email" name="email" placeholder="@gmail.com"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Address"><b>Address</b></label></td>
+                    <td><input type="text" name="address" placeholder="enter your address"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Department"><b>Select Department</b></label></td>
+                    <td><select id="dept" name="department">
+                    <option value="" disabled selected hidden>--Select--</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="Management">Management</option>
+                    <option value="Law">Law</option>
+                    </select></td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" value="Register"><input type="submit" value="Cancel"></td>
+                </tr>
+
+        </tbody>
+        </table>
+    </form>
+
+    <h1 align="center"><ins>Login Form</ins></h1>
+    <form action="">
+        <table border="2", cellpadding="10" align="center">
+            <tbody>
+
+                <tr>
+                    <td><label for="Username"><b>Username</b></label></td>
+                    <td><input type="text" name="username" placeholder=""></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Password"><b>Password</b></label></td>
+                    <td><input type="text" name="password" placeholder=""></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" value="Login"><input type="submit" value="Cancel"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

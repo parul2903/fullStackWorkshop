@@ -1,0 +1,154 @@
+h3{
+    color: green
+}
+.h4{
+    color: violet
+}
+
+#h5{
+    color: yellow
+}
+
+.ptag{
+    background-color: yellowgreen;
+    color: red;
+    border: 1px solid blue;
+}
+
+.background{
+    background-color: red;
+    opacity:0.5;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    height: 540px
+}
+
+.background2{
+    height: 540px;
+    background: cyan url("dim.jpg") no-repeat center;
+}
+
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.link{
+    text-decoration: none;
+    color: red
+}
+
+.link:visited{
+    color: pink;
+}
+
+.link:hover{
+    background-color: blue;
+}
+
+.link:active{
+    background-color: green; 
+}
+
+.box-border{
+    height: 100px;
+    background-color: red;
+}
+
+.box{
+    background-color: red;
+    border: 5px solid black;
+    /* top right bottom left */
+    /* if we give only 3 values, right and left will take same values */
+    /* if we give only 2 values, first value will take top and bottom and second value will take right and left will take same values */
+    padding: 20px 40px 20px 40px;
+    margin-left: 20px;
+}
+
+.display{
+    background-color: red;
+    display: inline;
+    position: absolute;
+    /* z-index: 1; */
+}
+
+.display-span{
+    background-color: blue;
+    color: black;
+}
+
+.image{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.position{
+    position: relative;
+    background-color: green;
+    left: 30px;
+    top: 30px;
+    border: 3px solid red;
+
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    width: 300px;
+    border: 5px solid green;
+
+}
+
+.relative{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 5px solid red;
+}
+
+.absolute{
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 5px solid green;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    right: 0;
+    background-color: blue;
+    border: 5px solid green;
+}
+
+.box{
+    display: flex;
+    flex-shrink: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.one{
+    background-color: blue;
+}
+
+.two{
+    background-color: red;
+}
+
+.three{
+    background-color: green;
+}
